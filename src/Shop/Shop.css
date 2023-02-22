@@ -1,0 +1,16 @@
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.proder-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+@media screen and (max-width: 110px) {
+    .proder-container {
+        grid-template-columns: repeat (2, 1fr);
+    }
+}
